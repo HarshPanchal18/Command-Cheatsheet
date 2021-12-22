@@ -1,1 +1,120 @@
+TERMINAL COMMANDS
+
+
+System Commands:-
+
+bg 
+	- Display stopped or background jobs
+
+fg [n]
+	- Brings the most recent background job to foreground
+	- n - Number of job
+
+w
+	- Display who is online
+
+last reboot
+	- Show system reboot history
+
+date 
+	- <DAY> <D M Y> <HH:MM:SS> <format> <timezone>
+	- Saturday 27 November 2021 11:34:36 AM IST
+
+date;who
+	- <DAY> <D M Y> <HH:MM:SS> <format> <timezone>
+	- <current user>	<login time>
+
+cal
+	- prints current month
+
+uptime
+	- print current time with login_time
+
+whoami
+	- <current user>
+
+cat /proc/cpuinfo
+	- Show CPU information
+
+cat /proc/meminfo
+	- Show memory information
+
+df
+	- Show disk usage
+
+free 
+	- Show memory and swap area
+
+whereis <application>
+	- Show directory application
+
+which <application>
+	- Show default application
+
+ps aux
+	- Show running application on your system
+
+uname -<mode>
+	-m Show your system hardware
+	-n Write nodename. Usage fro network communication
+	-r Show kernel's release
+	-s Write name pf system
+	-v Write name of OS
+	-a Write all information of up
+
+useradd -c "<comment>" -m <uname>
+	- Create an account named <uname> with a <comment> and create the user's home directory
+
+userdel <uname>
+	- Delete the <uname> account
+
+usermod -aG <group> <user>
+	- Add the <user> to the <group>
+
+shutdown 
+	- Set schedule  for shutdown after a minute
+shutdown -c to cancel schedule
+
+chfn 
+	- Change the information for current user
+	(Full Name, Room no., Work Phone, Home Phone, Other)
+
+clear 
+	- Clear the terminal
+
+deluser <user>
+	- Delete the Username
+
+delgroup <group>
+	- Delete the <group>
+
+halt 
+	- Stop the system 
+(WARNING: SAVE YOUR ALL WORK BEFORE APPLYING THIS COMMAND)
+
+lsb_release 
+	- Show information of distribution
+
+dmidecode
+	- Get data of system(BIOS, memory, cache, etc.)
+	e.x. demidecode -t bios 
+		Show only BIOS data
+
+free -m
+	- Show quantity of memory
+
+history
+	- Show used command history
+
+passwd <user>
+	- Change the password of <user>
+
+usermod -L <user>
+	- Lock the <user> account
+
+usermod -U <user>
+	- Reactive the <user>
+
+echo $SHELL
+	- To view the shell program used on your system
 
