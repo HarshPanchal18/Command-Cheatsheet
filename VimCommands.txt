@@ -1,1 +1,11 @@
+Credits:-	
+Youtube :- 	Ben Awad
+All commands are tested by me(Harsh Panchal).
 
+1.	vim <FileName>
+2.	:q 		    -> Discard & Quit
+3.	:wq		    -> Save & Quit
+4.	i/I		    -> Insert Mode from current position/From first position
+5.	Ctrl+V		-> Visual(Selection) Mode (starts from current position)
+			          Selects in block(column)
+			          You can do Replace/Yank/Cut/Remove operations with the selected block
