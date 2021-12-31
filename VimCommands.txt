@@ -1,11 +1,22 @@
-Credits:-	
+Credits :	
 Youtube :- 	Ben Awad
 All commands are tested by me(Harsh Panchal).
 
 1.	vim <FileName>
-2.	:q 		    -> Discard & Quit
-3.	:wq		    -> Save & Quit
-4.	i/I		    -> Insert Mode from current position/From first position
+2.	:q 		-> Discard & Quit
+3.	:wq		-> Save & Quit
+4.	i/I		-> Insert Mode from current position/From first position
 5.	Ctrl+V		-> Visual(Selection) Mode (starts from current position)
 			          Selects in block(column)
 			          You can do Replace/Yank/Cut/Remove operations with the selected block
+6. 	Esc		-> Back to Default Mode
+7.	:w		-> Save changes
+8.	h/j/k/l		-> Left/Down/Up/Right
+9. 	dd		-> Delete current line
+			   You can also delete the selected lines (Select->dd)
+10. 	u		-> Undo
+11.  	G		-> Last line
+12.	gg		-> First line
+13. 	<NO>h/j/k/l	-> Move right/down/up/right <NO> directions
+14.	Ctrl+R		-> Redo
+15.	yy		-> Copy current line
