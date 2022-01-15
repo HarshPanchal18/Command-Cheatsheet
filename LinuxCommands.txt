@@ -118,3 +118,54 @@ usermod -U <user>
 echo $SHELL
 	- To view the shell program used on your system
 
+File Commands:-
+
+ls [-mode]
+	- List current directory
+	- i -> Display lnode No. of File/Dir
+	- R -> Shos Recursively list of Sub-Dir
+	- l -> Shows file/dir, size, modified date-time,owner of file 
+	-lh -> Shows size in Readable format (KB)
+	-al -> Formatted with Hidden files
+
+pwd
+	- Show curr. dir
+
+mkdir <dir>
+	- Create <dir> on curr. directory
+
+rm <dir>
+	- Delete the <dir>
+
+rm *
+	- Delete all files in your curr. dir
+
+rm *<ch>
+	- Delete all starting with <ch> file
+
+rm <bet*as>
+	- Delete files starting with <as> and ends with <bet>
+
+cp <f1> <f2>
+	- Copy <f1> to <f2>
+
+mv <dir1> <dir2>
+	- Move dir1 to dir2
+
+touch <file>
+	- Create/Update a <file> 
+
+cat > <file>
+	- Write input to <file>
+
+more <file>
+	- Get information of <file>
+
+head <file>
+	- Get first 10 line of <file>
+
+less <text>
+	- Return context of <text>
+
+comm <F1> <F2>
+	- Compare <F1> and <F2>
