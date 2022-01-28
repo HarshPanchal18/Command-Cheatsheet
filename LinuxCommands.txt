@@ -169,3 +169,17 @@ less <text>
 
 comm <F1> <F2>
 	- Compare <F1> and <F2>
+	
+
+Search Commands:-
+
+grep <pattern> <file>
+	- Search for <pattern> in <file>
+locate <file>
+	- Indexing file
+
+find /[DIR] <Filename>
+	- Find <File> by scanning whole system
+
+find ~
+	- Find empty files 
