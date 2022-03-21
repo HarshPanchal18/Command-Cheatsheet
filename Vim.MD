@@ -17,7 +17,8 @@ Ctrl+V
 ```
 -> Visual(Selection) Mode (starts from current position)
 			          Selects in block(column)
-			          You can do Replace/Yank/Cut/Remove operations with the selected block
+			          
+->You can do Replace/Yank/Cut/Remove operations with the selected block
 ```
 Esc
 ```
@@ -34,8 +35,29 @@ h/j/k/l
 dd
 ```
 -> Delete current line
-			   You can also delete the selected lines (Select->dd)
+
+-> You can also delete the selected lines (Select->dd)
 ```
 u
 ```
 -> Undo
+```
+G
+```
+-> Last line
+```
+gg
+```
+-> First line
+```	
+<NO>h/j/k/l
+```
+-> Move right/down/up/right <NO> directions
+```
+Ctrl+R
+```
+-> Redo
+```	
+yy
+```
+-> Copy current line
